@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home_fragment">
+
+    <fragment
+        android:id="@+id/home_fragment"
+        android:name="es.jrhtfld.mvvm_template.ui.home.HomeFragment"
+        tools:layout="@layout/home_layout">
+
+        <action
+            android:id="@+id/route_to_home"
+            app:destination="@id/home_fragment" />
+        <action
+            android:id="@+id/action_home_fragment_to_newGameFragment"
+            app:destination="@id/newGameFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/newGameFragment"
+        android:name="es.jrhtfld.mvvm_template.ui.newgame.NewGameFragment"
+        tools:layout="@layout/new_game_layout" />
+
+</navigation>

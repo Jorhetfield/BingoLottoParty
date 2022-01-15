@@ -1,0 +1,5 @@
+include ':chat'
+include ':data'
+include ':domain'
+include ':app'
+rootProject.name = "mvvm_template"

@@ -1,0 +1,40 @@
+<resources>
+    <!-- Errors -->
+    <string name="network_error">No se puede conectar con el servidor, inténtelo más tarde.</string>
+    <string name="operation_ok">Operación realizada correctamente.</string>
+    <string name="network_down">No se puede conectar con el servidor, inténtelo de nuevo más tarde.</string>
+    <string name="network_down_timeout">Tiempo de espera excedido, comprueba tu conexión.</string>
+    <string name="error_fields_empty">Debes rellenar todos los campos.</string>
+    <string name="error_mail_empty">El campo mail no puede estar vacío.</string>
+    <string name="error_tyc">Debes aceptar los términos y condiciones.</string>
+    <string name="error_pass_not_valid">La contraseña debe tener más de 7 caracteres, una mayúscula, un número y un símbolo.</string>
+    <string name="error_newpass_not_valid">La nueva contraseña debe tener más de 6 caracteres.</string>
+    <string name="error_pass_empty">La contraseña no puede estar vacía.</string>
+    <string name="error_newpass_empty">La nueva contraseña no puede estar vacía.</string>
+    <string name="error_pass_equals">Las contraseñas no son iguales.</string>
+    <string name="error_email">Tienes que introducir un email correcto (email@prueba.com).</string>
+    <string name="error_unauthorised">El email o la contraseña son erróneos, inténtalo de nuevo.</string>
+    <string name="error_already_registered">El email con el que intentas registrarte ya existe, prueba a iniciar sesión.</string>
+    <string name="error_birthday_and_role">Es obligatorio seleccionar una fecha de cumpleaños y un rol.</string>
+    <string name="error_family_name_empty">El campo nombre de familia no puede estar vacío.</string>
+    <string name="error_title_not_valid">El título no es válido</string>
+    <string name="error_date_not_valid">La fecha no es válida</string>
+    <string name="error_category_not_valid">La categoría no es válida</string>
+    <string name="error_location_not_valid">La localización no es válida</string>
+    <string name="error_description_not_valid">La descripción no es válida</string>
+
+    <!-- Login -->
+    <string name="hint_email_login">Email*</string>
+    <string name="hint_password_login">Contraseña*</string>
+    <string name="label_forgot_password">Olvidé mi contraseña</string>
+    <string name="label_button_login">Entrar</string>
+    <string name="label_create_account_login">Crear cuenta</string>
+    <string name="enter">Entrar</string>
+    <string name="recover_pass">Recuperar contraseña</string>
+    <string name="loading">Cargando</string>
+    <string name="hint_surname_register">Apellido*</string>
+    <string name="name">Nombre*</string>
+    <string name="confirm_password">Confirmar contraseña*</string>
+    <string name="create_account">Crear cuenta</string>
+
+</resources>
